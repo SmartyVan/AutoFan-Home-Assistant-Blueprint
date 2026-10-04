@@ -4,6 +4,9 @@
 [![YouTube](https://img.shields.io/badge/YouTube-Smarty%20Van-red?logo=youtube&logoColor=white)](https://www.youtube.com/@SmartyVan)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-yellow.svg)](https://www.buymeacoffee.com/smartyvan)
 
+### 📺 Watch the [YouTube video](https://www.youtube.com/watch?v=CW2JbdqlLY4) about this project:
+[<img width="350" alt="Smarty Van YouTube video" src="https://img.youtube.com/vi/CW2JbdqlLY4/maxresdefault.jpg"/>](https://www.youtube.com/watch?v=CW2JbdqlLY4)
+
 A Home Assistant automation blueprint that sets a fan's speed from a temperature sensor. It was written for the 10-speed MaxxAir fan and works with any Home Assistant `fan` entity.
 
 [![Open your Home Assistant instance and show the blueprint import dialog with this blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2FSmartyVan%2FAutoFan-Home-Assistant-Blueprint%2Fblob%2Fmain%2Fauto_fan.yaml)
