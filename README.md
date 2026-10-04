@@ -57,6 +57,8 @@ The sensor's unit is read from its `unit_of_measurement`. If it differs from the
 
 ## Installation
 
+Requires Home Assistant 2024.10 or later.
+
 1. Click the **Import Blueprint** button above, or in Home Assistant go to *Settings → Automations & Scenes → Blueprints → Import Blueprint* and paste:
    ```
    https://github.com/SmartyVan/AutoFan-Home-Assistant-Blueprint/blob/main/auto_fan.yaml
