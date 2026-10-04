@@ -11,6 +11,15 @@ A Home Assistant automation blueprint that sets a fan's speed from a temperature
 
 [![Open your Home Assistant instance and show the blueprint import dialog with this blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2FSmartyVan%2FAutoFan-Home-Assistant-Blueprint%2Fblob%2Fmain%2Fauto_fan.yaml)
 
+## First: make your MaxxAir fan smart
+
+A stock MaxxAir fan doesn't show up in Home Assistant. Before using this blueprint, convert yours so Home Assistant can control it:
+
+- [Original method](https://www.youtube.com/watch?v=eYho3RSO84E), using [MaxxAir-Fan-ESPHome](https://github.com/SmartyVan/MaxxAir-Fan-ESPHome)
+- [Updated method (Short)](https://youtube.com/shorts/hv13ojHQuxM)
+
+If your fan is already a `fan` entity in Home Assistant, skip this step.
+
 ## What it does
 
 While **Auto Fan Control** is on, each update from the temperature sensor sets the fan speed:
@@ -79,9 +88,6 @@ The sensor's unit is read from its `unit_of_measurement`. If it differs from the
 ## Related
 
 - [MaxxAir-Fan-ESPHome](https://github.com/SmartyVan/MaxxAir-Fan-ESPHome): ESPHome firmware to control an IR MaxxAir fan from Home Assistant. It provides a fan entity and an Auto Fan switch for this blueprint.
-- Videos on converting a MaxxAir fan for Home Assistant control:
-  - [Original method](https://www.youtube.com/watch?v=eYho3RSO84E)
-  - [Updated method (Short)](https://youtube.com/shorts/hv13ojHQuxM)
 
 ---
 
