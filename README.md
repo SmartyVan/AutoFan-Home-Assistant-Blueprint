@@ -79,6 +79,9 @@ The sensor's unit is read from its `unit_of_measurement`. If it differs from the
 ## Related
 
 - [MaxxAir-Fan-ESPHome](https://github.com/SmartyVan/MaxxAir-Fan-ESPHome): ESPHome firmware to control an IR MaxxAir fan from Home Assistant. It provides a fan entity and an Auto Fan switch for this blueprint.
+- Videos on converting a MaxxAir fan for Home Assistant control:
+  - [Original method](https://www.youtube.com/watch?v=eYho3RSO84E)
+  - [Updated method (Short)](https://youtube.com/shorts/hv13ojHQuxM)
 
 ---
 
